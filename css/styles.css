@@ -29,6 +29,10 @@ body {
     flex: 1;
     text-align: end;
 }
+/* Nav bar for large screens */
+.navlarge {
+    display: none;
+}
 
 /* Main pic code */
 .mainpic {

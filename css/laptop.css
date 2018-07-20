@@ -1,5 +1,14 @@
 @media only screen and (min-width: 479px) {
     
+    .container1 {
+        display: none;
+    }
+
+    .navlarge {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     .mainpic {
         display: none;
@@ -26,17 +35,24 @@
         align-items: flex-start;
         height: 800px;
         flex-direction: column;
-        padding-left:10px;
         align-content: center;
+        padding: 5px 5px 0 10px;
     }
 
     .container5items  {
         flex: 1;
    }
-
+/* this is for resizing the little icons */
    .samesize {
-       width: 50px;
-       height: 50px;
+       width: 35px;
+       height: 35px;
+   }
+
+   .smaller {
+       display: block;
+       font-size: 0.5em;
+       font-style: italic;
+       padding-top: 5px;
    }
 
 }    
