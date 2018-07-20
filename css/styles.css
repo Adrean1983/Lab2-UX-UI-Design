@@ -31,6 +31,16 @@ body {
 }
 
 /* Main pic code */
+.mainpic {
+    display: flex;
+    align-items: center;
+    height: 250px;
+}
+
+.mainpicalt {
+    display: none;
+}
+
 
 /* More info items */
 .container3, .container4 {
