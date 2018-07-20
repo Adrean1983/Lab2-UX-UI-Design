@@ -1,0 +1,44 @@
+    
+    /* This is my title font from google.
+    font-family: 'Luckiest Guy', cursive; */
+
+body {
+    font-family: 'Acme', sans-serif;
+    font-size: 1.8em;
+}
+
+/* nav bar */
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger {
+    flex: 1;
+}
+
+.title {
+    flex: 2;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 1.3em;
+}
+
+.cart {
+    flex: 1;
+    text-align: end;
+}
+
+/* Main pic code */
+
+/* More info items */
+.container3, .container4 {
+    display: flex;
+    align-items: center;
+    height: 250px;
+}
+
+.container3items, .container4items  {
+     flex: 1;
+}
